@@ -3,6 +3,7 @@ import { ConfigProvider } from 'antd';
 // import { useSelector } from "react-redux";
 import { HelmetProvider } from 'react-helmet-async'
 import Home from './pages/Home'
+import Start from './pages/Start'
 
 function Router() {
 //   const lightMode = useSelector(selectLightMode);
@@ -13,6 +14,7 @@ function Router() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/StartPage" element={<Start />} />
             </Routes>
           </BrowserRouter>
         </HelmetProvider>

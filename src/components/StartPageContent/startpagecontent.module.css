@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600&display=swap');
+.content {
+    width: 100%;
+    height: 812px;
+}
+.img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 20px;
+    top: 45px;
+    background: #F5F6FA;
+}
+  
+.arrow {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 10px;
+    top: -360px;
+    margin-left: 10px;
+    border-radius: 50%;    
+}
+
+.text{
+    position: absolute;
+    left: 75px;
+    top: -295px;
+    width: 224px;
+    height: 31px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110%;
+    letter-spacing: -0.0075em;
+
+    color: #1D1E20;
+
+}
+
+.text2{
+    position: absolute;
+    width: 300px;
+    height: 17px;
+    left: 72px;
+    top: 290px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #8F959E;
+}
+
+.Column{
+    position: absolute;
+    width: 335px;
+    left: 20px;
+    top: -85px;
+    background-color: #ffffff;
+    
+}
+.btn{
+    background-image: url(../../../public/img/fb.png);
+    width: 100%;
+    height:50px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+.btn2{ 
+    background-image: url(../../../public/img/twitter.png);
+    width: 100%;
+    height:50px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+.btn3{ 
+    background-image: url(../../../public/img/google.png);
+    width: 100%;
+    height:50px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+
+}
+.btn2:hover,.btn:hover{ 
+    color: #FFFFFF; 
+    background: #9775FA !important; 
+}
+.btn4{
+    position: absolute;
+    width: 300px;
+    height: 17px;
+    left: 262px;
+    top: 290px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #1D1E20;
+    font-weight:bold;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+}

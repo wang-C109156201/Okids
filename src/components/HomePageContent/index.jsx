@@ -6,7 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 const carouselEL = React.createRef()
 
 export default function HomePageContent() {
-      
+    const navigate = useNavigate();
     return (
             <div >
                 <Row  >
@@ -16,9 +16,9 @@ export default function HomePageContent() {
                            <p className={styles.text}>Look Good, Feel Good</p>
                            <p className={styles.text2}>Create your individual & unique style and look amazing everyday.</p>
                            <div className={styles.Row}>
-                                <Button className={styles.btn} type="primary">Men</Button>
-                                <Button className={styles.btn2} type="primary">Women</Button>
-                                <Link className={styles.btn3}  type="text">Skip</Link>
+                                <Button className={styles.btn} onClick={() => navigate("/StartPage")} type="primary">Men</Button>
+                                <Button className={styles.btn2} onClick={() => navigate("/StartPage")} type="primary">Women</Button>
+                                <Link className={styles.btn3} to="/StartPage" type="text">Skip</Link>
                            </div>
                         </div>
                     </Col>
