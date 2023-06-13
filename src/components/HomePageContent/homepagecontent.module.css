@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600&display=swap');
+.content {
+    width: 100%;
+    height: 812px;
+}
+.Homeimg {
+    width: 375px;
+    height: 812px;
+}
+.Hellobox{
+    position: absolute;
+    width: 345px;
+    height: 244px;
+    left: 15px;
+    top: 553px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.text{
+    position: absolute;
+    width: 261px;
+    height: 28px;
+    left: 42px;
+    top: 25px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110%;
+    letter-spacing: -0.0075em;
+
+    color: #1D1E20;
+}
+.text2{
+    position: absolute;
+    width: 294px;
+    height: 42px;
+    left: 25px;
+    top: 63px;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;    
+    text-align: center;
+    
+    color: #8F959E;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    color: #8F959E;
+    position: absolute;
+    width: 152px;
+    height: 60px;
+    left: 15px;
+    top: 125px;
+    background: #F5F6FA;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.btn2{ 
+    color: #8F959E;
+    position: absolute;
+    width: 152px;
+    height: 60px;
+    left: 177px;
+    top: 125px;
+    font-size: 17px;
+    background: #F5F6FA;
+    border-radius: 10px;
+}
+.btn3{ 
+    position: absolute;
+    width: 36px;
+    height: 19px;
+    left: 154px;
+    top: 200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 110%;
+    color: #8F959E;
+}
+.btn2:hover,.btn:hover{ 
+    color: #FFFFFF; 
+    background: #9775FA !important; 
+}
