@@ -10,6 +10,7 @@ export default function StartPageContent() {
             <div >
                 <Row  >
                     <Col>
+                    <div className={styles.Start}>
                         <div>
                             <img src="/img/Arrow - Left.png" className={`${styles.arrow} ${styles.img}`} alt="arrow" />
                         </div>
@@ -26,6 +27,8 @@ export default function StartPageContent() {
                             <p className={styles.text2}>Already have an account?</p>
                             <Link className={styles.btn4} to="/StartPage" type="text"> Signin</Link>
                         </div>
+                    </div>
+                       
                                             
                     </Col>
                 </Row>

@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 function Start() {
   return (
-    <div >
+    <div className="start-page" >
         <StartPageContent/>
         <Footer
             title="Create an Account"

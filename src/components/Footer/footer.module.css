@@ -14,8 +14,9 @@
     width: 375px;
     height: 75px;
     left: 0px;
-    top: 331px;
+    top: auto;
 
+    bottom: 0;
     background: #9775FA;
     color: #FEFEFE;
 
