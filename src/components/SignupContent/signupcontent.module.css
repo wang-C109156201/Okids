@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600&display=swap');
+.Start {
+    width: 375px;
+    height:812px;
+}
+.img {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 20px;
+    top: 45px;
+    background: #F5F6FA;
+}
+  
+.arrow {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 20px;
+    top: 45px;
+    margin-left: 10px;
+    border-radius: 50%;    
+}
+
+.textinput{
+    position: absolute;
+    left:20px;
+    
+    width: 300px;
+    height: 70px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110%;
+    letter-spacing: -0.0075em;
+    margin-bottom: 140px;
+}
+
+.text{
+    position: absolute;
+    left: 135px;
+    top: 105px;
+    width: 224px;
+    height: 31px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110%;
+    letter-spacing: -0.0075em;
+
+    color: #1D1E20;
+
+}
+
+.text2{
+    position: absolute;
+    width: 300px;
+    height: 17px;
+    left: 20px;
+    top: 240px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #1D1E20;
+}
+
+.Column{
+    position: absolute;
+    left:20px;
+    top: 288px;
+    width: 300px;
+    background-color: #ffffff;
+    
+}
+.switch{
+    position: absolute;
+    left:275px;
+    top: 240px;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+}

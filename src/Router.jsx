@@ -4,6 +4,7 @@ import { ConfigProvider } from 'antd';
 import { HelmetProvider } from 'react-helmet-async'
 import Home from './pages/Home'
 import Start from './pages/Start'
+import Signup from './pages/Signup';
 
 function Router() {
 //   const lightMode = useSelector(selectLightMode);
@@ -15,6 +16,7 @@ function Router() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/StartPage" element={<Start />} />
+              <Route path="/Signin" element={<Signup />} />
             </Routes>
           </BrowserRouter>
         </HelmetProvider>

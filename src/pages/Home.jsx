@@ -3,7 +3,7 @@ import HomePageContent from '../components/HomePageContent';
 
 function Home() {
   return (
-    <div className={styles.content} >
+    <div>
       <HomePageContent/>
     </div>
   );
